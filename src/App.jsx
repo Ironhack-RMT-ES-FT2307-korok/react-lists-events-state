@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter'
 import Events from './components/Events'
 import List from './components/List'
 
@@ -13,7 +14,11 @@ function App() {
 
       {/* <List /> */}
 
-      <Events />
+      {/* <Events /> */}
+
+      <Counter num={0}/>
+      {/* <Counter num={10}/>
+      <Counter num={40}/> */}
 
     </>
   )

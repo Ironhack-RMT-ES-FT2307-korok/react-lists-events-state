@@ -2,6 +2,7 @@ import './App.css'
 import Counter from './components/Counter'
 import Events from './components/Events'
 import List from './components/List'
+import WizardList from './components/WizardList'
 
 function App() {
 
@@ -16,9 +17,11 @@ function App() {
 
       {/* <Events /> */}
 
-      <Counter num={0}/>
+      {/* <Counter num={0}/> */}
       {/* <Counter num={10}/>
       <Counter num={40}/> */}
+
+      <WizardList />
 
     </>
   )
